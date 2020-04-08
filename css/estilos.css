@@ -192,8 +192,7 @@ h6 {
 /* Clases de fullpage.js - Flechas de Slide */
 /* ------------------------- */
 
-
-.fp-controlArrow.fp-next,
+fp-controlArrow fp-prev .fp-controlArrow.fp-next,
 .fp-controlArrow.fp-prev {
     top: 95%;
 }
@@ -380,10 +379,19 @@ h6 {
     .footer .redes-sociales a {
         width: 60;
         height: 50px;
-
     }
 
     .footer .redes-sociales a i {
         font-size: 24px;
     }
+
+    .productos .descripcion {
+        font-size: 16px;
+    }
+
+    .fp-controlArrow.fp-next,
+    .fp-controlArrow.fp-prev {
+        display: none;
+    }
+
 }
