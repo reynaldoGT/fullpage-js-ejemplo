@@ -386,7 +386,7 @@ fp-controlArrow fp-prev .fp-controlArrow.fp-next,
     }
 
     .productos .descripcion {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .fp-controlArrow.fp-next,
@@ -394,4 +394,10 @@ fp-controlArrow fp-prev .fp-controlArrow.fp-next,
         display: none;
     }
 
+}
+
+@media screen and (max-width: 360px) {
+    .desc{
+        width: 90%;
+    }
 }
